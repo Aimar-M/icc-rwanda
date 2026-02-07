@@ -1,0 +1,25 @@
+ICC Rwanda Website - Image Placeholders
+
+This directory contains placeholder references for images.
+Replace these with actual images:
+
+/images/logo.png - ICC Rwanda logo (recommended: 200x200px PNG with transparency)
+
+/images/team/
+  - diana-uwera.jpg - Founder & CEO photo
+  - executive-director.jpg - Executive Director photo
+  - education-head.jpg - Head of Education photo
+
+/images/partners/
+  - icc-usa.png - ICC USA logo
+  - kamonyi.png - Kamonyi District logo
+  - sepha.png - Sepha Rwanda logo
+
+/images/projects/
+  - Add project-specific images here
+
+Recommended image specifications:
+- Team photos: 400x400px, square crop
+- Partner logos: 200x200px, PNG with transparency
+- Project images: 800x600px or 16:9 ratio
+- Hero backgrounds: 1920x1080px minimum
