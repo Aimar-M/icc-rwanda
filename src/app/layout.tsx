@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: 'ICC Rwanda | Empowering Communities, Transforming Lives',
   description: 'International Community Center Rwanda - A nonprofit organization empowering teen mothers, women with children with disabilities, and underprivileged communities in Rwanda.',
   keywords: ['ICC Rwanda', 'nonprofit', 'Rwanda', 'teen mothers', 'community empowerment', 'women empowerment'],
+  icons: {
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
 }
 
 export default function RootLayout({
