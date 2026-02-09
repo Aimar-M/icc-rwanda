@@ -4,8 +4,13 @@ import { motion } from 'framer-motion'
 
 const contactDetails = [
   {
-    title: 'Our Location',
-    content: ['Kamonyi District', 'Southern Province', 'Rwanda'],
+    title: 'Rwanda Office',
+    content: ['Kamonyi District', 'Southern Province, Rwanda'],
+    icon: LocationIcon,
+  },
+  {
+    title: 'USA Headquarters',
+    content: ['4625 E Broadway Blvd, Suite 201A', 'Tucson, Arizona 85711'],
     icon: LocationIcon,
   },
   {
@@ -15,9 +20,15 @@ const contactDetails = [
     icon: EmailIcon,
   },
   {
-    title: 'Call Us',
+    title: 'Call Us — Rwanda',
     content: ['+250 784 220 336'],
-    link: 'tel:+250780000000',
+    link: 'tel:+250784220336',
+    icon: PhoneIcon,
+  },
+  {
+    title: 'Call Us — USA',
+    content: ['+1 (520) 839-5364'],
+    link: 'tel:+15208395364',
     icon: PhoneIcon,
   },
 ]

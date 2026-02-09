@@ -4,10 +4,10 @@ import { useEffect, useState, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const stats = [
-  { value: 50, suffix: '+', label: 'Women Empowered', icon: WomenIcon },
-  { value: 60, suffix: '+', label: 'Students Supported', icon: StudentsIcon },
-  { value: 7, suffix: '', label: 'Active Programs', icon: ProgramsIcon },
-  { value: 3, suffix: '', label: 'Partner Organizations', icon: PartnersIcon },
+  { value: 100, suffix: '+', label: 'Women Empowered', icon: WomenIcon },
+  { value: 120, suffix: '+', label: 'Students Supported', icon: StudentsIcon },
+  { value: 500, suffix: '+', label: 'Healthcare / Mutuelle', icon: HealthcareIcon },
+  { value: 100, suffix: '+', label: 'Supporting Small Businesses with Capital', icon: BusinessIcon },
 ]
 
 function AnimatedCounter({ value, suffix, isInView }: { value: number; suffix: string; isInView: boolean }) {
@@ -88,18 +88,18 @@ function StudentsIcon({ className }: { className?: string }) {
   )
 }
 
-function ProgramsIcon({ className }: { className?: string }) {
+function HealthcareIcon({ className }: { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
     </svg>
   )
 }
 
-function PartnersIcon({ className }: { className?: string }) {
+function BusinessIcon({ className }: { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
   )
 }
