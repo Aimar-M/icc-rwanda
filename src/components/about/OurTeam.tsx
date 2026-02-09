@@ -11,12 +11,12 @@ const teamMembers = [
     image: '/images/team/diana-uwera.jpeg',
   },
   {
-    name: 'Laurence',
+    name: 'Laurence Umuhoza',
     role: 'Executive Director',
     image: '/images/team/laurence.jpeg',
   },
   {
-    name: 'Safari',
+    name: 'Safari Emmy',
     role: 'Head of Education Department',
     image: '/images/team/safari.jpeg',
   },
