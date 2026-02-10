@@ -6,8 +6,8 @@ import ContactInfo from '@/components/contact/ContactInfo'
 import MapSection from '@/components/contact/MapSection'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | ICC Rwanda',
-  description: 'Get in touch with ICC Rwanda. Contact us for inquiries about our programs, volunteering, or partnerships.',
+  title: 'Contact Us | ICC — International Community Center',
+  description: 'Get in touch with ICC. Contact us for inquiries about our programs, volunteering, or partnerships.',
 }
 
 export default function ContactPage() {

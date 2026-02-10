@@ -33,10 +33,11 @@ export default function MessageToWorld() {
           </h2>
 
           <p className="text-xl text-white/80 leading-relaxed mb-6">
-            In Rwanda, thousands of teen mothers, women caring for children with
-            disabilities, and families living in poverty face overwhelming challenges
-            every day. But within each of them lies incredible potential waiting to be
-            unlocked.
+            Across the globe — from refugee families rebuilding their lives in the
+            United States to teen mothers, women caring for children with disabilities,
+            and families living in poverty in Rwanda — millions face overwhelming
+            challenges every day. But within each of them lies incredible potential
+            waiting to be unlocked.
           </p>
 
           <p className="text-lg text-white/70 leading-relaxed">
@@ -53,7 +54,7 @@ export default function MessageToWorld() {
             transition={{ delay: 0.3 }}
             className="mt-10"
           >
-            <span className="text-white/60 text-sm">— ICC Rwanda Team</span>
+            <span className="text-white/60 text-sm">— The ICC Team</span>
           </motion.div>
         </motion.div>
       </div>

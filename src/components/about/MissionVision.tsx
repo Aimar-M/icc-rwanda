@@ -20,11 +20,11 @@ export default function MissionVision() {
           </div>
           <h3 className="heading-3 text-neutral-900 mb-4">Our Mission</h3>
           <p className="text-body leading-relaxed">
-            To empower teen mothers, women with children who have disabilities, and
-            underprivileged communities in Rwanda through comprehensive support programs
-            that include vocational training, mental health services, education, and
-            sustainable economic initiatives. We aim to break cycles of poverty and
-            create opportunities for self-sufficiency and dignity.
+            The International Community Center is dedicated to empowering refugee and
+            immigrant families by providing essential resources, education, and support
+            to help them integrate and succeed in the United States. Additionally, we
+            extend our mission globally by supporting special needs children, advancing
+            education, and fostering economic independence for women in African countries.
           </p>
         </motion.div>
 
@@ -41,11 +41,9 @@ export default function MissionVision() {
           </div>
           <h3 className="heading-3 text-neutral-900 mb-4">Our Vision</h3>
           <p className="text-body leading-relaxed">
-            A Rwanda where every teen mother, every woman caring for children with
-            disabilities, and every member of underprivileged communities has the
-            resources, skills, and support they need to lead fulfilling, independent
-            lives. We envision thriving communities where vulnerability is met with
-            opportunity, and where every individual can contribute to society with pride.
+            To create a world where every refugee, immigrant, and vulnerable community
+            member thrives with dignity and self-sufficiency, empowered by the resources
+            and opportunities they need to build a brighter future.
           </p>
         </motion.div>
       </div>

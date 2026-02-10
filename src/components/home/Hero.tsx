@@ -21,7 +21,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6"
           >
-            International Community Center — Rwanda
+            International Community Center — Founded 2014
           </motion.span>
 
           <motion.h1
@@ -40,9 +40,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-white/90 leading-relaxed mb-10 max-w-3xl mx-auto"
           >
-            Supporting teen mothers, women with children with disabilities, and
-            underprivileged communities in Rwanda through education, vocational
-            training, and sustainable development programs.
+            Empowering refugee and immigrant families in the United States and
+            supporting vulnerable communities in Rwanda through education,
+            integration services, and sustainable development programs.
           </motion.p>
 
           <motion.div

@@ -4,9 +4,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'ICC Rwanda | Empowering Communities, Transforming Lives',
-  description: 'International Community Center Rwanda - A nonprofit organization empowering teen mothers, women with children with disabilities, and underprivileged communities in Rwanda.',
-  keywords: ['ICC Rwanda', 'nonprofit', 'Rwanda', 'teen mothers', 'community empowerment', 'women empowerment'],
+  title: 'ICC | International Community Center — Empowering Communities, Transforming Lives',
+  description: 'The International Community Center (ICC) is a 501(c)(3) nonprofit empowering refugee and immigrant families in the United States and supporting vulnerable communities in Rwanda through education, vocational training, and sustainable development.',
+  keywords: ['ICC', 'International Community Center', 'nonprofit', 'refugee support', 'immigrant empowerment', 'Rwanda', 'community empowerment', 'women empowerment', '501c3'],
   icons: {
     icon: '/images/logo.png',
     apple: '/images/logo.png',

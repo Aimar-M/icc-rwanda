@@ -34,7 +34,7 @@ export default function FeaturedProjects() {
     <Section background="light" padding="lg">
       <SectionHeading
         title="Featured Projects"
-        subtitle="Discover how we're making a difference in communities across Rwanda through sustainable, impactful programs."
+        subtitle="Discover how we're making a difference in communities across the United States and Rwanda through sustainable, impactful programs."
       />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -6,12 +6,7 @@ import SectionHeading from '../SectionHeading'
 
 const partners = [
   {
-    name: 'ICC USA',
-    description: 'Our founding partner providing strategic guidance, funding support, and international advocacy for our programs in Rwanda.',
-    logo: '/images/partners/icc-usa.jpeg',
-  },
-  {
-    name: 'Government of Rwanda - Kamonyi District',
+    name: 'Government of Rwanda — Kamonyi District',
     description: 'Local government partnership ensuring our programs align with national development goals and community needs.',
     logo: '/images/partners/govt-rwanda.png',
   },
@@ -25,7 +20,7 @@ export default function Partners() {
         subtitle="Working together with trusted organizations to maximize our impact and reach more communities."
       />
 
-      <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
+      <div className="flex justify-center max-w-4xl mx-auto">
         {partners.map((partner, index) => (
           <motion.div
             key={partner.name}

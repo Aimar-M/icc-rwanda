@@ -1,7 +1,7 @@
 {
-  "name": "icc-rwanda",
+  "name": "icc-website",
   "version": "1.0.0",
-  "description": "ICC Rwanda - International Community Center Rwanda website",
+  "description": "ICC - International Community Center website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

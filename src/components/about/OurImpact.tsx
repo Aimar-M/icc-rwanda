@@ -7,35 +7,35 @@ import SectionHeading from '../SectionHeading'
 const impactStats = [
   {
     number: '100+',
-    label: 'Women in Economic Programs',
+    label: 'Women Empowered',
     description: 'Women empowered through vocational training and cooperative businesses',
     icon: WomenIcon,
     color: 'text-primary',
     bgColor: 'bg-primary/10',
   },
   {
-    number: '60+',
-    label: 'Students in Education',
+    number: '120+',
+    label: 'Students Supported',
     description: 'Students receiving quality education and IT skills training',
     icon: EducationIcon,
     color: 'text-success',
     bgColor: 'bg-success/10',
   },
   {
-    number: '25+',
-    label: 'Hawkers Funded',
-    description: 'Street vendors supported with capital to grow their businesses',
-    icon: BusinessIcon,
-    color: 'text-accent',
-    bgColor: 'bg-accent/10',
-  },
-  {
-    number: '30+',
-    label: 'Teen Mothers in Counseling',
-    description: 'Young mothers receiving mental health support and therapy',
+    number: '500+',
+    label: 'Healthcare — Mutuelle',
+    description: 'Community members supported with health insurance enrollment and medical care',
     icon: HeartIcon,
     color: 'text-pink-500',
     bgColor: 'bg-pink-500/10',
+  },
+  {
+    number: '100+',
+    label: 'Small Businesses Supported',
+    description: 'Entrepreneurs supported with capital to start and grow their businesses',
+    icon: BusinessIcon,
+    color: 'text-accent',
+    bgColor: 'bg-accent/10',
   },
 ]
 
@@ -44,7 +44,7 @@ export default function OurImpact() {
     <Section background="light" padding="lg">
       <SectionHeading
         title="Our Impact"
-        subtitle="Measurable change in the lives of individuals and communities across Rwanda."
+        subtitle="Measurable change in the lives of individuals and communities across our programs."
       />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
