@@ -1,7 +1,7 @@
-# ICC Rwanda Website
+# ICC Website
 
 ## Project Overview
-Website for the International Community Center (ICC) Rwanda branch — a nonprofit empowering teen mothers, women with children with disabilities, and underprivileged communities through education, vocational training, and economic support.
+Website for the International Community Center (ICC) — a 501(c)(3) nonprofit founded in 2014 by Diana Uwera in Arizona, USA. ICC empowers refugee and immigrant families in the United States and supports vulnerable communities in Rwanda through education, vocational training, integration services, and sustainable development.
 
 ## Tech Stack
 - Next.js 14 (App Router)
@@ -24,8 +24,8 @@ Website for the International Community Center (ICC) Rwanda branch — a nonprof
 - Hero section with background video/image + tagline + CTA
 - Impact stats bar (50 women, 60 students, etc.)
 - Featured projects preview (3 cards)
-- Partners section (ICC USA, Government of Rwanda Kamonyi District, Sepha Rwanda)
-- Contact section with address: Kamonyi, Southern Province, Rwanda
+- Partners section (Government of Rwanda Kamonyi District, Sepha Rwanda)
+- Contact section with addresses: Arizona, USA (HQ) and Kamonyi, Southern Province, Rwanda
 - Footer with email, social links
 
 ### About Us (/about)
@@ -40,6 +40,7 @@ Website for the International Community Center (ICC) Rwanda branch — a nonprof
 - Donate Now CTA
 
 ### Our Projects (/projects)
+**Rwanda Programs:**
 - Teen Mothers Vocational Training Center
 - Counseling & Therapy (mental health support for teen mothers)
 - Basic IT Skills Program (laptop provision)
@@ -48,17 +49,24 @@ Website for the International Community Center (ICC) Rwanda branch — a nonprof
 - End Poverty — Hawkers Program (funding to start small businesses)
 - Medical Care — Mutuelle de Santé (health insurance support)
 
+**US Programs:**
+- Language Training (English proficiency for refugees/immigrants)
+- Job Placement (employment support and employer partnerships)
+- Legal Assistance (immigration guidance and advocacy)
+- Cultural Integration (community programs and support networks)
+
 ### Contact (/contact)
 - Contact form
-- Address: Kamonyi, Southern Province, Rwanda
+- Addresses: Arizona, USA (HQ) and Kamonyi, Southern Province, Rwanda
 - Map embed
 - Email and phone
 
 ## Key Content Notes
-- ICC was founded by Diana Uwera in 2014 (USA), Rwanda branch extends the mission locally
-- 501(c)(3) nonprofit in the US
+- ICC was founded by Diana Uwera in 2014 in Arizona, USA
+- 501(c)(3) nonprofit headquartered in the US with operations in both the US and Rwanda
+- Dual mission: refugee/immigrant support in the US + community empowerment in Rwanda
 - Aligned with UN SDGs: No Poverty, Good Health, Quality Education, Gender Equality
-- Partners: ICC USA, Government of Rwanda (Kamonyi District), Sepha Rwanda
-- Impact numbers: 50+ women empowered, 60+ students supported
+- Partners: Government of Rwanda (Kamonyi District), Sepha Rwanda
+- Impact numbers: 100+ women in economic programs, 60+ students supported
 - Logo should appear in navbar — use the ICC logo from /public/images/logo.png
 

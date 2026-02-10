@@ -12,7 +12,7 @@ const locations = [
     phone: '+250 784 220 336',
     mapUrl:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63800.94!2d29.9278!3d-2.0299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c31c2a4f8a7a1d%3A0x8d4c8a8b8c8d8e8f!2sKamonyi%2C%20Rwanda!5e0!3m2!1sen!2sus!4v1699900000000!5m2!1sen!2sus',
-    mapTitle: 'ICC Rwanda Office - Kamonyi, Rwanda',
+    mapTitle: 'ICC Office - Kamonyi, Rwanda',
   },
   {
     name: 'USA Headquarters',
@@ -135,7 +135,7 @@ export default function ContactPreview() {
               exit={{ opacity: 0, x: -40 }}
               transition={{ duration: 0.4, ease: 'easeInOut' }}
             >
-              <div className="aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <iframe
                   src={location.mapUrl}
                   width="100%"

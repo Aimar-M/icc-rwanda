@@ -1,5 +1,6 @@
 'use client'
 
+import { motion } from 'framer-motion'
 import Section from '../Section'
 import ProjectCard from './ProjectCard'
 
@@ -76,17 +77,104 @@ const projects = [
   },
 ]
 
+const usPrograms = [
+  {
+    id: 'language-training',
+    title: 'Language Training',
+    description: 'Helping refugee and immigrant families develop English proficiency and communication skills for daily life and employment.',
+    icon: LanguageIcon,
+    color: 'text-primary',
+    bgColor: 'bg-primary/10',
+  },
+  {
+    id: 'job-placement',
+    title: 'Job Placement',
+    description: 'Connecting newcomers with employment opportunities through resume support, interview preparation, and employer partnerships.',
+    icon: JobIcon,
+    color: 'text-accent',
+    bgColor: 'bg-accent/10',
+  },
+  {
+    id: 'legal-assistance',
+    title: 'Legal Assistance',
+    description: 'Providing guidance on immigration processes, advocacy, and legal resources to help families navigate their new environment.',
+    icon: LegalIcon,
+    color: 'text-success',
+    bgColor: 'bg-success/10',
+  },
+  {
+    id: 'cultural-integration',
+    title: 'Cultural Integration',
+    description: 'Offering community programs, workshops, and support networks to help families adapt and build connections in their new home.',
+    icon: CultureIcon,
+    color: 'text-pink-500',
+    bgColor: 'bg-pink-500/10',
+  },
+]
+
 export default function ProjectsGrid() {
   return (
     <Section background="light" padding="lg">
-      <div className="grid md:grid-cols-2 gap-8">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={project.id}
-            {...project}
-            index={index}
-          />
-        ))}
+      <p className="text-lg text-neutral-600 text-center max-w-3xl mx-auto mb-16">
+        ICC operates programs across two continents, addressing the unique needs of the communities we serve.
+      </p>
+
+      {/* Rwanda Programs */}
+      <div className="mb-20">
+        <motion.h3
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="heading-3 text-neutral-900 text-center mb-10"
+        >
+          Our Programs in Rwanda
+        </motion.h3>
+        <div className="grid md:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={project.id}
+              {...project}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* US Programs */}
+      <div>
+        <motion.h3
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="heading-3 text-neutral-900 text-center mb-10"
+        >
+          Our Programs in the United States
+        </motion.h3>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {usPrograms.map((program, index) => (
+            <motion.div
+              key={program.id}
+              id={program.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className={`w-12 h-12 rounded-xl ${program.bgColor} flex items-center justify-center mb-4`}>
+                <program.icon className={`w-6 h-6 ${program.color}`} />
+              </div>
+              <h4 className="font-display font-semibold text-lg text-neutral-900 mb-2">
+                {program.title}
+              </h4>
+              <p className="text-sm text-neutral-500">
+                {program.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </Section>
   )
@@ -147,6 +235,39 @@ function MedicalIcon({ className }: { className?: string }) {
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4m0 0v4m0-4h4m-4 0H8" />
+    </svg>
+  )
+}
+
+// US Program Icons
+function LanguageIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+    </svg>
+  )
+}
+
+function JobIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+    </svg>
+  )
+}
+
+function LegalIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+    </svg>
+  )
+}
+
+function CultureIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
     </svg>
   )
 }

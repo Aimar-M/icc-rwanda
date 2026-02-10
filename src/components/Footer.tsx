@@ -37,8 +37,9 @@ export default function Footer() {
               />
             </Link>
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
-              Empowering teen mothers, women with children with disabilities, and
-              underprivileged communities across Rwanda through sustainable programs.
+              Empowering refugee and immigrant families in the United States and
+              vulnerable communities in Rwanda through education, integration, and
+              sustainable development.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -95,9 +96,16 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <LocationIcon className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-neutral-400">
+                  <span className="font-medium text-neutral-300">USA Headquarters</span><br />
+                  Arizona, United States
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <LocationIcon className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span className="text-neutral-400">
+                  <span className="font-medium text-neutral-300">Rwanda Office</span><br />
                   Kamonyi District,<br />
-                  Southern Province,<br />
-                  Rwanda
+                  Southern Province, Rwanda
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -108,7 +116,13 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <PhoneIcon className="w-5 h-5 text-accent flex-shrink-0" />
-                <a href="tel:+250780000000" className="text-neutral-400 hover:text-accent transition-colors">
+                <a href="tel:+15208395364" className="text-neutral-400 hover:text-accent transition-colors">
+                  +1 (520) 839-5364
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <PhoneIcon className="w-5 h-5 text-accent flex-shrink-0" />
+                <a href="tel:+250784220336" className="text-neutral-400 hover:text-accent transition-colors">
                   +250 784 220 336
                 </a>
               </li>
@@ -121,7 +135,7 @@ export default function Footer() {
       <div className="border-t border-neutral-800">
         <div className="container-custom py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-500 text-sm">
-            © {new Date().getFullYear()} ICC Rwanda. All rights reserved.
+            © {new Date().getFullYear()} International Community Center (ICC). All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <Link href="/privacy" className="text-neutral-500 hover:text-accent transition-colors">

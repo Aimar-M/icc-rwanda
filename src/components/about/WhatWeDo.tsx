@@ -25,25 +25,28 @@ export default function WhatWeDo() {
           className="prose prose-lg max-w-none text-neutral-600"
         >
           <p className="text-lg leading-relaxed mb-6">
-            ICC Rwanda (International Community Center — Rwanda) is a nonprofit organization
-            dedicated to empowering the most vulnerable members of Rwandan society. Founded
-            with a vision of creating lasting change, we focus on teen mothers, women with
-            children who have disabilities, and underprivileged communities in the Kamonyi
-            District of Rwanda's Southern Province.
+            The International Community Center (ICC) is a 501(c)(3) nonprofit organization
+            founded in 2014 by Diana Uwera in Arizona, USA. What began as a response to the
+            challenges faced by refugee and immigrant families in the United States has grown
+            into an organization with a dual mission: empowering newcomers to thrive in
+            America and uplifting vulnerable communities in Rwanda and across Africa.
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
-            Our approach combines immediate support with long-term empowerment strategies.
-            Through vocational training, mental health counseling, education programs, and
-            economic initiatives, we help individuals gain the skills and confidence they
-            need to build sustainable livelihoods and contribute to their communities.
+            In the United States, ICC provides essential resources to refugee and immigrant
+            families, including language training, job placement assistance, legal support,
+            and cultural integration programs. We help families build the skills and
+            connections they need to achieve self-sufficiency and contribute to their new
+            communities with dignity.
           </p>
 
           <p className="text-lg leading-relaxed">
-            We believe that every person deserves the opportunity to thrive. By addressing
-            the interconnected challenges of poverty, lack of education, and limited
-            economic opportunities, we create pathways to independence and dignity for
-            those who need it most.
+            In Rwanda, our programs focus on supporting children with special needs,
+            advancing education for underprivileged youth, and fostering economic
+            independence for women. Through vocational training, mental health counseling,
+            cooperative businesses, and community health initiatives in the Kamonyi District
+            and beyond, we create pathways to independence and dignity for those who need it
+            most.
           </p>
         </motion.div>
       </div>

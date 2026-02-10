@@ -27,7 +27,7 @@ export default function OurTeam() {
     <Section background="white" padding="lg">
       <SectionHeading
         title="Our Team"
-        subtitle="Meet the dedicated individuals leading ICC Rwanda's mission to transform lives."
+        subtitle="Meet the dedicated individuals leading ICC's mission to transform lives."
       />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
