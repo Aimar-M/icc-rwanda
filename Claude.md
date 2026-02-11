@@ -46,7 +46,7 @@ Website for the International Community Center (ICC) — a 501(c)(3) nonprofit f
 - Basic IT Skills Program (laptop provision)
 - Nyamirambo Women's Cooperative (women with children with disabilities)
 - Climate Activism — Clean Stoves (partnership with Sepha Rwanda)
-- End Poverty — Hawkers Program (funding to start small businesses)
+- End Poverty — Women Entrepreneurs Program (funding to help women move from street vending to markets)
 - Medical Care — Mutuelle de Santé (health insurance support)
 
 **US Programs:**
