@@ -3,6 +3,7 @@ import PageHero from '@/components/PageHero'
 import WhatWeDo from '@/components/about/WhatWeDo'
 import MissionVision from '@/components/about/MissionVision'
 import OurTeam from '@/components/about/OurTeam'
+import FounderMessage from '@/components/about/FounderMessage'
 import OurImpact from '@/components/about/OurImpact'
 import MessageToWorld from '@/components/about/MessageToWorld'
 
@@ -22,6 +23,7 @@ export default function AboutPage() {
       <WhatWeDo />
       <MissionVision />
       <OurTeam />
+      <FounderMessage />
       <OurImpact />
       <MessageToWorld />
     </>
