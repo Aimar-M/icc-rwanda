@@ -11,13 +11,20 @@ const teamMembers = [
     image: '/images/team/diana-uwera.jpeg',
   },
   {
+    name: 'Ingabire Claire Deborah',
+    role: 'Administrator USA Office',
+    image: '/icc%20images/claire.png',
+  },
+  {
     name: 'Laurence Umuhoza',
     role: 'Executive Director',
+    location: 'ICC-Rwanda',
     image: '/images/team/laurence.jpeg',
   },
   {
     name: 'Safari Emmy',
     role: 'Head of Education Department',
+    location: 'ICC-Rwanda',
     image: '/images/team/safari.jpeg',
   },
 ]
@@ -30,7 +37,7 @@ export default function OurTeam() {
         subtitle="Meet the dedicated individuals leading ICC's mission to transform lives."
       />
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {teamMembers.map((member, index) => (
           <motion.div
             key={member.name}
@@ -58,6 +65,11 @@ export default function OurTeam() {
                 <p className="text-primary font-medium text-sm">
                   {member.role}
                 </p>
+                {'location' in member && member.location && (
+                  <p className="text-neutral-500 text-xs mt-1">
+                    {member.location}
+                  </p>
+                )}
               </div>
             </div>
           </motion.div>
