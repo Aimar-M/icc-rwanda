@@ -116,7 +116,7 @@ export default function ProjectsGrid() {
   return (
     <Section background="light" padding="lg">
       <p className="text-lg text-neutral-600 text-center max-w-3xl mx-auto mb-16">
-        ICC operates programs across two continents, addressing the unique needs of the communities we serve.
+        At the International Community Center, we provide safe shelter, support, and hope to individuals and families experiencing homelessness and domestic violence, helping them rebuild their lives with dignity and care.
       </p>
 
       {/* Rwanda Programs */}
