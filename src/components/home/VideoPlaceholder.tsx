@@ -20,7 +20,7 @@ export default function VideoPlaceholder() {
             playsInline
             preload="none"
           >
-            <source src="/icc%20images/WhatsApp%20Video%202026-02-19%20at%2019.15.35.mp4" type="video/mp4" />
+            <source src="/icc%20images/INTERVIEW%20%20with%20subs.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </motion.div>
