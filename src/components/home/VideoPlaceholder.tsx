@@ -20,7 +20,7 @@ export default function VideoPlaceholder() {
             playsInline
             preload="none"
           >
-            <source src="https://0cuiankcp5kcjrto.private.blob.vercel-storage.com/INTERVIEW%20%20with%20subs.mp4" type="video/mp4" />
+            <source src="https://jupjed3o94mex5ko.public.blob.vercel-storage.com/INTERVIEW%20%20with%20subs.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </motion.div>
