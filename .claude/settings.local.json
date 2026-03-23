@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git config:*)",
+      "Bash(ssh:*)",
+      "Bash(brew install:*)",
+      "Bash(gh auth login:*)",
+      "Bash(vercel:*)",
+      "Bash(git push:*)",
+      "Bash(npx next build:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(ls:*)",
+      "Bash(which git-lfs:*)",
+      "Bash(git lfs:*)",
+      "Bash(git rm:*)",
+      "Bash(git stash:*)",
+      "Bash(file:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
