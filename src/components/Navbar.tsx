@@ -8,6 +8,7 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Projects', href: '/projects' },
+  { name: 'Gallery', href: '/gallery' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -55,6 +56,12 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
+          <Link
+            href="/donate"
+            className="bg-accent hover:bg-accent-dark text-white font-semibold px-5 py-2.5 rounded-lg transition-colors shadow-sm"
+          >
+            Donate
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -103,6 +110,13 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
+              <Link
+                href="/donate"
+                className="bg-accent hover:bg-accent-dark text-white font-semibold text-center px-5 py-3 rounded-lg transition-colors mt-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Donate
+              </Link>
             </div>
           </motion.div>
         )}
